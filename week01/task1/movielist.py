@@ -11,9 +11,16 @@ def moviesurl(myurl):
     bs_info = bs(response.text, 'html.parser')
 
     #获取信息
+    urls = []
     for tags in bs_info.find_all('div', attrs={'class':'channel-detail movie-item-title'},limit=10):
         for atag in tags.find_all('a',):
-            print(atag.get('href'))
+            urls.append(f'https://maoyan.com' + atag.get('href'))
+    return urls
+
+def moviesinfo(urls):
+    for url in urls:
+        pass
+
 
 
 
