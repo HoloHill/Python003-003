@@ -1,8 +1,5 @@
-import requests
-from bs4 import BeautifulSoup as bs
 import controller as c
 import pandas as pd
-
 
 
 urls = c.moviesurl(f'https://maoyan.com/films')
