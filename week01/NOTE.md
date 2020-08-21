@@ -1,2 +1,1 @@
-学习笔记
-加油
+![Image text]（https://github.com/HoloHill/Python003-003/blob/master/week01/第一周学习总结.png）
